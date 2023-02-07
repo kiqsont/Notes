@@ -393,7 +393,7 @@ shd::shared_ptr引用计数操作必须是原子的，而std::shared_ptr也常�
 
 控制块的析构会用到虚函数
 
-![image-20221227111931527](../images/Effective_Modern_Shared_ptr.png)
+![image-20221227111931527](./images/Effective_Modern_Shared_ptr.png)
 
 ---
 
@@ -1070,7 +1070,7 @@ std::async的默认策略可以很好地配合线程的负载均衡，但同时�
 
 共享状态一般使用堆上对象表示
 
-![image-20221231215024063](../images/Effective_Modern_Concurrency_shared_state.png)
+![image-20221231215024063](./images/Effective_Modern_Concurrency_shared_state.png)
 
 std::future指涉的共享状态是由调用std::async创建
 
