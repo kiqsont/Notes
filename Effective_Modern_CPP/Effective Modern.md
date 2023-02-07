@@ -24,7 +24,7 @@
 
 auto推导的基本概念
 
-注意 auto x = {123} 得出的是std::initializer_list<int>
+注意 auto x = {123} 得出的是 std::initializer_list<int>
 
 
 
